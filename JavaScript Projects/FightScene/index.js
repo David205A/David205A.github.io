@@ -1,3 +1,19 @@
+var health = 20;
+// var maxHP = 150;
+// var percent = health / maxHP * 100;
+
+function fight() {
+    document.getElementById("attack")
+    // .style.color = "white"
+    .style.width = health + "px"
+    ;
+    console.log("damage!");
+    // console.log(this);
+}
+// =======================================================================
+
+
+
 var fills = document.querySelectorAll(".healthbar_fill");
 var aliveCharacter = document.querySelector(".alive")
 var deadCharacter = document.querySelector(".dead")
