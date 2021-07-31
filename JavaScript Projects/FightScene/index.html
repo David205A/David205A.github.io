@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fight Scene</title>
-    <link rel="stylesheet" href="GridTemplate.css">
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
@@ -41,12 +41,24 @@
                 STAMINA
             </div>
         </div>
-        <div class="box card-j">
-            <div class="healthbar" style="background-color: silver; border: 3px solid gray; width: 30vh; height: 5vh; margin: auto;">
-                <div style="background-color: pink; border: 1px solid gray; width: 85%; height: 99%;">
-                <div style="background-color: red; border: 1px solid gray; width: 35%; height: 99%;">
+                <div class="box card-j" style="display: grid; grid-template-rows: 1fr 1fr 1fr 1fr;">
+                    <!-- <div class="healthbar" style="background-color: silver; border: 2px solid gray;">
+                        <div style="background-color: pink; border: 1px solid gray; width: 75%; height: 1vw;">
+                        <div style="background-color: red; border: 1px solid gray; width: 35%; height: 1vw;">
+                    </div> -->
+                    <div style="border: 2px solid gray; background-color: silver;">
+                        <div style="border: 1px solid gray; background-color: red; width: 65%; height: 100%;"></div>
+                    </div>
+                    <div style="border: 2px solid gray; background-color: silver;">
+                        <div style="border: 1px solid gray; background-color: greenyellow; width: 95%; height: 100%;"></div>
+                    </div>
+                    <div style="border: 2px solid gray; background-color: silver;">
+                        <div style="border: 1px solid gray; background-color: dodgerblue; width: 85%; height: 100%;"></div>
+                    </div>
+                    <!-- <div style="border: 2px solid gray; background-color: silver;">
+                        <div style="border: 1px solid gray; background-color: wheat; width: 65%; height: 100%;"></div>
+                    </div> -->
                 </div>
-            </div>
             </div>
         </div>
         <div class="box card-k">
